@@ -51,9 +51,7 @@ Request: `POST`
 
 Path:    `/drivers/`
 
-
 Request body:
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;`name`: <driver_name>
 
@@ -61,6 +59,7 @@ Request body:
 
 &nbsp;&nbsp;&nbsp;&nbsp;`score`: <driver_score>
 
+<br />
 
 Response: `201 - Created`
 
@@ -70,8 +69,9 @@ Request: `GET`
 
 Path:    `/drivers/<pk>`
 
-Response: `200 - Created`
+<br />
 
+Response: `200 - OK`
 
 Response body:
 
@@ -86,11 +86,41 @@ Response body:
 
 #### Update driver
 
+Request: `POST`
 
+Path:    `/drivers/<pk>`
+
+Request body:
+
+&nbsp;&nbsp;&nbsp;&nbsp;`name`: <driver_name>
+
+&nbsp;&nbsp;&nbsp;&nbsp;`email`: <driver_email>
+
+&nbsp;&nbsp;&nbsp;&nbsp;`score`: <driver_score>
+
+<br />
+
+Response: `200 - OK`
+
+Response body:
+
+&nbsp;&nbsp;&nbsp;&nbsp;`url`: <unique_path_of_driver_record>
+
+&nbsp;&nbsp;&nbsp;&nbsp;`name`: <driver_name>
+
+&nbsp;&nbsp;&nbsp;&nbsp;`email`: <driver_email>
+
+&nbsp;&nbsp;&nbsp;&nbsp;`score`: <driver_score>
 
 #### Delete driver
 
+Request: `POST`
 
+Path:    `/drivers/<pk>`
+
+<br />
+
+Response: `204 - No Content`
 
 ## Tests
 
