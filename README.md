@@ -119,7 +119,7 @@ Response body:
 
 #### Delete driver
 
-Request: `POST`
+Request: `DELETE`
 
 Path:    `/drivers/<pk>`
 
