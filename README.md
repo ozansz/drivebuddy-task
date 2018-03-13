@@ -63,6 +63,8 @@ Request body:
 
 Response: `201 - Created`
 
+<br />
+
 #### Read driver
 
 Request: `GET`
@@ -83,6 +85,7 @@ Response body:
 
 &nbsp;&nbsp;&nbsp;&nbsp;`score`: <driver_score>
 
+<br />
 
 #### Update driver
 
@@ -111,6 +114,8 @@ Response body:
 &nbsp;&nbsp;&nbsp;&nbsp;`email`: <driver_email>
 
 &nbsp;&nbsp;&nbsp;&nbsp;`score`: <driver_score>
+
+<br />
 
 #### Delete driver
 
