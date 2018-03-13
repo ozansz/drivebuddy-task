@@ -89,7 +89,7 @@ Response body:
 
 #### Update driver
 
-Request: `POST`
+Request: `PUT`
 
 Path:    `/drivers/<pk>`
 
