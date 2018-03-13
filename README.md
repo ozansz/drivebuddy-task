@@ -54,15 +54,13 @@ Path:    `/drivers/`
 
 Request body:
 
-{
 
-  `name`: <driver_name>,
+&nbsp;&nbsp;&nbsp;&nbsp;`name`: <driver_name>,
 
-  `email`: <driver_email>,
+&nbsp;&nbsp;&nbsp;&nbsp;`email`: <driver_email>,
 
-  `score`: <driver_score>
+&nbsp;&nbsp;&nbsp;&nbsp;`score`: <driver_score>
 
-}
 
 Response: `201 - Created`
 
@@ -77,17 +75,14 @@ Response: `200 - Created`
 
 Response body:
 
-{
+&nbsp;&nbsp;&nbsp;&nbsp;`url`: <unique_path_of_driver_record>,
 
-  `url`: <unique_path_of_driver_record>,
+&nbsp;&nbsp;&nbsp;&nbsp;`name`: <driver_name>,
 
-  `name`: <driver_name>,
+&nbsp;&nbsp;&nbsp;&nbsp;`email`: <driver_email>,
 
-  `email`: <driver_email>,
+&nbsp;&nbsp;&nbsp;&nbsp;`score`: <driver_score>
 
-  `score`: <driver_score>
-
-}
 
 #### Update driver
 
