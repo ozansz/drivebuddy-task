@@ -55,9 +55,9 @@ Path:    `/drivers/`
 Request body:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;`name`: <driver_name>,
+&nbsp;&nbsp;&nbsp;&nbsp;`name`: <driver_name>
 
-&nbsp;&nbsp;&nbsp;&nbsp;`email`: <driver_email>,
+&nbsp;&nbsp;&nbsp;&nbsp;`email`: <driver_email>
 
 &nbsp;&nbsp;&nbsp;&nbsp;`score`: <driver_score>
 
@@ -75,11 +75,11 @@ Response: `200 - Created`
 
 Response body:
 
-&nbsp;&nbsp;&nbsp;&nbsp;`url`: <unique_path_of_driver_record>,
+&nbsp;&nbsp;&nbsp;&nbsp;`url`: <unique_path_of_driver_record>
 
-&nbsp;&nbsp;&nbsp;&nbsp;`name`: <driver_name>,
+&nbsp;&nbsp;&nbsp;&nbsp;`name`: <driver_name>
 
-&nbsp;&nbsp;&nbsp;&nbsp;`email`: <driver_email>,
+&nbsp;&nbsp;&nbsp;&nbsp;`email`: <driver_email>
 
 &nbsp;&nbsp;&nbsp;&nbsp;`score`: <driver_score>
 
