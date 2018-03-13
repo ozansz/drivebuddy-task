@@ -36,9 +36,9 @@ The RESTful API implements CRUD functionality for the `Driver` model.
 The `Driver` model has three fields:
 
 <ul>
-  <li>`name`  - Name of the driver</li>
-  <li>`email` - Unique email of the driver</li>
-  <li>`score` - Score of the driver</li>
+  <li><b>name</b>  - Name of the driver</li>
+  <li><b>email</b> - Unique email of the driver</li>
+  <li><b>score</b> - Score of the driver</li>
 </ul>
 
 ### API Endpoints
@@ -55,12 +55,14 @@ Path:    `/drivers/`
 Request body:
 
 {
-  `name`: <driver_name>,
-  `email`: <driver_email>,
-  `score`: <driver_score>
-}
 
-<hr></hr>
+  `name`: <driver_name>,
+
+  `email`: <driver_email>,
+
+  `score`: <driver_score>
+
+}
 
 Response: `201 - Created`
 
@@ -70,18 +72,21 @@ Request: `GET`
 
 Path:    `/drivers/<pk>`
 
-<hr></hr>
-
 Response: `200 - Created`
 
 
 Response body:
 
 {
-  `url`: <unique_path_of_driver_record>
+
+  `url`: <unique_path_of_driver_record>,
+
   `name`: <driver_name>,
+
   `email`: <driver_email>,
+
   `score`: <driver_score>
+
 }
 
 #### Update driver
